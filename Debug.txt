@@ -1,0 +1,69 @@
+[Neural Net Settings]
+X = 2  H = 6  Y = 1
+learningRate = 1.41421   
+momentum = 0.25
+
+---------- input layer ----------
+
+Input [0] = 1
+Input [1] = 1
+
+---------- hidden layer ----------
+
+
+Hidden Input Sum [0] = -24.6005
+==================
+Hidden Input [0 0] = 1
+Hidden Input [0 1] = 1
+
+
+Hidden Input Sum [1] = 6.64537
+==================
+Hidden Input [1 0] = 1
+Hidden Input [1 1] = 1
+
+
+Hidden Input Sum [2] = -15.9429
+==================
+Hidden Input [2 0] = 1
+Hidden Input [2 1] = 1
+
+
+Hidden Input Sum [3] = -3.78502
+==================
+Hidden Input [3 0] = 1
+Hidden Input [3 1] = 1
+
+
+Hidden Input Sum [4] = -3.78502
+==================
+Hidden Input [4 0] = 1
+Hidden Input [4 1] = 1
+
+
+Hidden Input Sum [5] = -15.3335
+==================
+Hidden Input [5 0] = 1
+Hidden Input [5 1] = 1
+
+HiddenOutput [0] = 5.62906e-011
+HiddenOutput [1] = 0.999522
+HiddenOutput [2] = 3.23878e-007
+HiddenOutput [3] = 0.058139
+HiddenOutput [4] = 0.0581388
+HiddenOutput [5] = 5.95709e-007
+
+---------- output layer ----------
+
+Output Input Sum [0] = -4.22365
+===================
+Output Input [0 0] = 5.62906e-011
+Output Input [0 1] = 0.999522
+Output Input [0 2] = 3.23878e-007
+Output Input [0 3] = 0.058139
+Output Input [0 4] = 0.0581388
+Output Input [0 5] = 5.95709e-007
+
+
+Expected = 0 |  Output [0] = 0.0382853
+
