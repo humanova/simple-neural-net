@@ -81,7 +81,7 @@ int main(){
 	int loop=10000;
 	int trainLoop=0;
 	int denemeModu;	//when epoch hits loop-1, it takes 4 inputs from user,sets denemeModu to 1,
-									// to disable back propagation (disables updating weights)
+			// to disable back propagation (disables updating weights)
 
 	randWeight(Weight1,W1);
 	randWeight(Weight2,W2);
@@ -115,25 +115,25 @@ int main(){
 		//sum output layer inputs [ HW2 ]
 		//activate output layer sums with sigmoid function [ f(HW2 + bias) ]
 
-			for(int a = 0; a < H; a++){								   	//sum hiddenInput * weight1
+			for(int a = 0; a < H; a++){				//sum hiddenInput * weight1
 				for(int i = 0; i < X ; i++){
 					hiddenInput[a][i] = input[i];
 					hiddenInputSum[a] += hiddenInput[a][i] * Weight1[i + a*X];
 				}
 			}
 
-			for(int a = 0; a < H; a++){									//activate hiddenInputSum
+			for(int a = 0; a < H; a++){				//activate hiddenInputSum
 				hiddenOutput[a] = calcOutput(hiddenInputSum[a], biasH);
 			}
 
-			for(int a = 0; a < Y; a++){									//sum outputInput * weight2
+			for(int a = 0; a < Y; a++){				//sum outputInput * weight2
 				for(int i = 0; i < H ; i++){
 					outputInput[a][i] = hiddenOutput[i];
 					outputInputSum[a] += outputInput[a][i] * Weight2[i + a*H];
 				}
 			}
 
-			for(int a = 0; a < Y; a++){									//activate outputInputSum (output)
+			for(int a = 0; a < Y; a++){				//activate outputInputSum (output)
 				output[a] = calcOutput(outputInputSum[a], biasY);
 			}
 
