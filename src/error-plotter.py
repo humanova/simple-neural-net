@@ -1,5 +1,5 @@
-#Emir Erbasan 08.08.18
-#github.com/humanova
+# 2018 Emir Erbasan (humanova)
+# MIT License, see LICENSE for more detail
 
 import os,sys
 import atexit
