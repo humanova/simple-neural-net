@@ -22,7 +22,7 @@ To change the neural-net settings you can edit "settings.txt". **Make sure to gi
 * 3 - statistics : This is my stats folder. I saved my experiments and benchmarks of neural-net to this folder. You can play with it.
 
 
-* 4 - .vscode : I use Visual Studio Code as my code editor for this project. On this folder my VSCode Project settings are stored.
+* 4 - .vscode : I use Visual Studio Code as my code editor for this project. In this folder my VSCode Project settings are stored.
 
 
 ## The graph isn't showing up ?
