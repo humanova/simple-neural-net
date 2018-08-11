@@ -1,0 +1,60 @@
+BiasH = 1
+BiasY = 1
+
+
+---------- input - hidden layer ----------
+
+Weight1 for hidden/input 0/0  : -1.77954
+Weight1 for hidden/input 0/1  : -1.74349
+
+==================
+Weight1 for hidden/input 1/0  : 1.73643
+Weight1 for hidden/input 1/1  : 1.78614
+
+==================
+Weight1 for hidden/input 2/0  : 1.81089
+Weight1 for hidden/input 2/1  : 1.71204
+
+==================
+Weight1 for hidden/input 3/0  : -14.5253
+Weight1 for hidden/input 3/1  : 1.10274
+
+==================
+Weight1 for hidden/input 4/0  : -1.15234
+Weight1 for hidden/input 4/1  : 22.9353
+
+==================
+Weight1 for hidden/input 5/0  : -6.58688
+Weight1 for hidden/input 5/1  : 1.04522
+
+==================
+Weight1 for hidden/input 6/0  : -4.89028
+Weight1 for hidden/input 6/1  : 0.89438
+
+==================
+Weight1 for hidden/input 7/0  : -1.99181
+Weight1 for hidden/input 7/1  : 0.314553
+
+==================
+Weight1 for hidden/input 8/0  : -1.77975
+Weight1 for hidden/input 8/1  : -1.74388
+
+==================
+Weight1 for hidden/input 9/0  : 1.15222
+Weight1 for hidden/input 9/1  : -12.3779
+
+==================
+
+---------- hidden - output layer ----------
+
+Weight2 for output/hidden 0/0  : -19.3085
+Weight2 for output/hidden 0/1  : 6.71455
+Weight2 for output/hidden 0/2  : 7.06994
+Weight2 for output/hidden 0/3  : 9.25626
+Weight2 for output/hidden 0/4  : -17.2133
+Weight2 for output/hidden 0/5  : 4.6679
+Weight2 for output/hidden 0/6  : 3.51397
+Weight2 for output/hidden 0/7  : 3.42241
+Weight2 for output/hidden 0/8  : -12.7483
+Weight2 for output/hidden 0/9  : 8.45568
+==================

@@ -1,0 +1,19 @@
+// IMPORTANT  : Do not add any empty lines, use '//' instead
+// IMPORTANT2 : Changing Hidden Neuron Count not affects(for now)
+//
+// Settings order :
+// ------------------
+// Train loop count           (10 - ...)     (default 10003)
+// Hidden Neuron count        (3 - ...)      (default 6)
+// Learning Rate              (1 - ...)      (default 1.4142135)
+// Momentum                   (0.01 - 0.9)   (default 0.50)
+// Print Out Stats            (0, 1)         (default 0)
+// Take inputs after training (0, 1)         (default 0)
+//
+//
+10003
+6
+1.4142135
+0.50
+0
+0

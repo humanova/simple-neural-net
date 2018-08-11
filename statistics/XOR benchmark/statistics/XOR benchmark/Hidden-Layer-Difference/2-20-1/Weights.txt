@@ -1,0 +1,110 @@
+BiasH = 1
+BiasY = 1
+
+
+---------- input - hidden layer ----------
+
+Weight1 for hidden/input 0/0  : -0.0638428
+Weight1 for hidden/input 0/1  : -0.611656
+
+==================
+Weight1 for hidden/input 1/0  : -1.75821
+Weight1 for hidden/input 1/1  : 17.653
+
+==================
+Weight1 for hidden/input 2/0  : 2.30901
+Weight1 for hidden/input 2/1  : 2.27816
+
+==================
+Weight1 for hidden/input 3/0  : -0.401776
+Weight1 for hidden/input 3/1  : -0.576837
+
+==================
+Weight1 for hidden/input 4/0  : -0.635762
+Weight1 for hidden/input 4/1  : -0.0132538
+
+==================
+Weight1 for hidden/input 5/0  : -2.0954
+Weight1 for hidden/input 5/1  : -2.23867
+
+==================
+Weight1 for hidden/input 6/0  : -2.01072
+Weight1 for hidden/input 6/1  : -2.09941
+
+==================
+Weight1 for hidden/input 7/0  : -0.670657
+Weight1 for hidden/input 7/1  : 0.00802917
+
+==================
+Weight1 for hidden/input 8/0  : -2.13482
+Weight1 for hidden/input 8/1  : -2.17898
+
+==================
+Weight1 for hidden/input 9/0  : -0.846069
+Weight1 for hidden/input 9/1  : -1.06534
+
+==================
+Weight1 for hidden/input 10/0  : -0.233198
+Weight1 for hidden/input 10/1  : -0.243754
+
+==================
+Weight1 for hidden/input 11/0  : -0.430586
+Weight1 for hidden/input 11/1  : -0.146522
+
+==================
+Weight1 for hidden/input 12/0  : -0.94607
+Weight1 for hidden/input 12/1  : -1.12737
+
+==================
+Weight1 for hidden/input 13/0  : -1.54663
+Weight1 for hidden/input 13/1  : 0.270632
+
+==================
+Weight1 for hidden/input 14/0  : -0.136666
+Weight1 for hidden/input 14/1  : -0.733475
+
+==================
+Weight1 for hidden/input 15/0  : -0.79656
+Weight1 for hidden/input 15/1  : 0.0213877
+
+==================
+Weight1 for hidden/input 16/0  : -0.707215
+Weight1 for hidden/input 16/1  : -0.183589
+
+==================
+Weight1 for hidden/input 17/0  : 10.2723
+Weight1 for hidden/input 17/1  : -1.6953
+
+==================
+Weight1 for hidden/input 18/0  : -1.99682
+Weight1 for hidden/input 18/1  : -2.28791
+
+==================
+Weight1 for hidden/input 19/0  : -2.1243
+Weight1 for hidden/input 19/1  : -2.27053
+
+==================
+
+---------- hidden - output layer ----------
+
+Weight2 for output/hidden 0/0  : 1.70955
+Weight2 for output/hidden 0/1  : -15.9637
+Weight2 for output/hidden 0/2  : 13.7058
+Weight2 for output/hidden 0/3  : 1.63506
+Weight2 for output/hidden 0/4  : 2.01588
+Weight2 for output/hidden 0/5  : -2.70867
+Weight2 for output/hidden 0/6  : -1.8607
+Weight2 for output/hidden 0/7  : 2.09787
+Weight2 for output/hidden 0/8  : -2.62684
+Weight2 for output/hidden 0/9  : 1.05432
+Weight2 for output/hidden 0/10  : 2.09139
+Weight2 for output/hidden 0/11  : 1.90169
+Weight2 for output/hidden 0/12  : 0.922217
+Weight2 for output/hidden 0/13  : 2.35199
+Weight2 for output/hidden 0/14  : 1.60452
+Weight2 for output/hidden 0/15  : 1.98509
+Weight2 for output/hidden 0/16  : 1.7927
+Weight2 for output/hidden 0/17  : -13.345
+Weight2 for output/hidden 0/18  : -2.39388
+Weight2 for output/hidden 0/19  : -3.1095
+==================

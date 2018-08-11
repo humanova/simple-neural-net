@@ -1,0 +1,165 @@
+[Neural Net Settings]
+X = 2  H = 18  Y = 1
+learningRate = 1.41421   
+momentum = 0.5
+
+---------- input layer ----------
+
+Input [0] = 1
+Input [1] = 1
+
+---------- hidden layer ----------
+
+
+Hidden Input Sum [0] = -0.836678
+==================
+Hidden Input [0 0] = 1
+Hidden Input [0 1] = 1
+
+
+Hidden Input Sum [1] = -4.14974
+==================
+Hidden Input [1 0] = 1
+Hidden Input [1 1] = 1
+
+
+Hidden Input Sum [2] = -0.934861
+==================
+Hidden Input [2 0] = 1
+Hidden Input [2 1] = 1
+
+
+Hidden Input Sum [3] = -0.808274
+==================
+Hidden Input [3 0] = 1
+Hidden Input [3 1] = 1
+
+
+Hidden Input Sum [4] = -1.43896
+==================
+Hidden Input [4 0] = 1
+Hidden Input [4 1] = 1
+
+
+Hidden Input Sum [5] = -2.56202
+==================
+Hidden Input [5 0] = 1
+Hidden Input [5 1] = 1
+
+
+Hidden Input Sum [6] = -4.39889
+==================
+Hidden Input [6 0] = 1
+Hidden Input [6 1] = 1
+
+
+Hidden Input Sum [7] = -2.38591
+==================
+Hidden Input [7 0] = 1
+Hidden Input [7 1] = 1
+
+
+Hidden Input Sum [8] = -4.39569
+==================
+Hidden Input [8 0] = 1
+Hidden Input [8 1] = 1
+
+
+Hidden Input Sum [9] = -4.3963
+==================
+Hidden Input [9 0] = 1
+Hidden Input [9 1] = 1
+
+
+Hidden Input Sum [10] = -2.21655
+==================
+Hidden Input [10 0] = 1
+Hidden Input [10 1] = 1
+
+
+Hidden Input Sum [11] = -1.99895
+==================
+Hidden Input [11 0] = 1
+Hidden Input [11 1] = 1
+
+
+Hidden Input Sum [12] = -4.23978
+==================
+Hidden Input [12 0] = 1
+Hidden Input [12 1] = 1
+
+
+Hidden Input Sum [13] = 29.162
+==================
+Hidden Input [13 0] = 1
+Hidden Input [13 1] = 1
+
+
+Hidden Input Sum [14] = -1.75863
+==================
+Hidden Input [14 0] = 1
+Hidden Input [14 1] = 1
+
+
+Hidden Input Sum [15] = -0.910973
+==================
+Hidden Input [15 0] = 1
+Hidden Input [15 1] = 1
+
+
+Hidden Input Sum [16] = 4.39693
+==================
+Hidden Input [16 0] = 1
+Hidden Input [16 1] = 1
+
+
+Hidden Input Sum [17] = -2.56121
+==================
+Hidden Input [17 0] = 1
+Hidden Input [17 1] = 1
+
+HiddenOutput [0] = 0.54074
+HiddenOutput [1] = 0.0411016
+HiddenOutput [2] = 0.516279
+HiddenOutput [3] = 0.547785
+HiddenOutput [4] = 0.39199
+HiddenOutput [5] = 0.173357
+HiddenOutput [6] = 0.0323301
+HiddenOutput [7] = 0.200062
+HiddenOutput [8] = 0.0324305
+HiddenOutput [9] = 0.0324112
+HiddenOutput [10] = 0.228545
+HiddenOutput [11] = 0.269148
+HiddenOutput [12] = 0.0376959
+HiddenOutput [13] = 1
+HiddenOutput [14] = 0.318943
+HiddenOutput [15] = 0.522242
+HiddenOutput [16] = 0.99549
+HiddenOutput [17] = 0.173474
+
+---------- output layer ----------
+
+Output Input Sum [0] = -4.92686
+===================
+Output Input [0 0] = 0.54074
+Output Input [0 1] = 0.0411016
+Output Input [0 2] = 0.516279
+Output Input [0 3] = 0.547785
+Output Input [0 4] = 0.39199
+Output Input [0 5] = 0.173357
+Output Input [0 6] = 0.0323301
+Output Input [0 7] = 0.200062
+Output Input [0 8] = 0.0324305
+Output Input [0 9] = 0.0324112
+Output Input [0 10] = 0.228545
+Output Input [0 11] = 0.269148
+Output Input [0 12] = 0.0376959
+Output Input [0 13] = 1
+Output Input [0 14] = 0.318943
+Output Input [0 15] = 0.522242
+Output Input [0 16] = 0.99549
+Output Input [0 17] = 0.173474
+
+
+Expected = 0 |  Output [0] = 0.0193247
+

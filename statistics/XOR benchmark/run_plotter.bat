@@ -1,0 +1,1 @@
+cmd /c start pythonw src\error-plotter.py

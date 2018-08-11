@@ -1,0 +1,117 @@
+[Neural Net Settings]
+X = 2  H = 12  Y = 1
+learningRate = 1.41421   
+momentum = 0.5
+
+---------- input layer ----------
+
+Input [0] = 1
+Input [1] = 0
+
+---------- hidden layer ----------
+
+
+Hidden Input Sum [0] = 0.114499
+==================
+Hidden Input [0 0] = 1
+Hidden Input [0 1] = 0
+
+
+Hidden Input Sum [1] = -2.08254
+==================
+Hidden Input [1 0] = 1
+Hidden Input [1 1] = 0
+
+
+Hidden Input Sum [2] = 0.342899
+==================
+Hidden Input [2 0] = 1
+Hidden Input [2 1] = 0
+
+
+Hidden Input Sum [3] = -1.42702
+==================
+Hidden Input [3 0] = 1
+Hidden Input [3 1] = 0
+
+
+Hidden Input Sum [4] = 26.5867
+==================
+Hidden Input [4 0] = 1
+Hidden Input [4 1] = 0
+
+
+Hidden Input Sum [5] = -2.21628
+==================
+Hidden Input [5 0] = 1
+Hidden Input [5 1] = 0
+
+
+Hidden Input Sum [6] = 0.747019
+==================
+Hidden Input [6 0] = 1
+Hidden Input [6 1] = 0
+
+
+Hidden Input Sum [7] = -1.706
+==================
+Hidden Input [7 0] = 1
+Hidden Input [7 1] = 0
+
+
+Hidden Input Sum [8] = 2.05521
+==================
+Hidden Input [8 0] = 1
+Hidden Input [8 1] = 0
+
+
+Hidden Input Sum [9] = 1.01144
+==================
+Hidden Input [9 0] = 1
+Hidden Input [9 1] = 0
+
+
+Hidden Input Sum [10] = -1.96256
+==================
+Hidden Input [10 0] = 1
+Hidden Input [10 1] = 0
+
+
+Hidden Input Sum [11] = -1.33151
+==================
+Hidden Input [11 0] = 1
+Hidden Input [11 1] = 0
+
+HiddenOutput [0] = 0.752967
+HiddenOutput [1] = 0.253025
+HiddenOutput [2] = 0.792966
+HiddenOutput [3] = 0.394838
+HiddenOutput [4] = 1
+HiddenOutput [5] = 0.228592
+HiddenOutput [6] = 0.851576
+HiddenOutput [7] = 0.330484
+HiddenOutput [8] = 0.955007
+HiddenOutput [9] = 0.881993
+HiddenOutput [10] = 0.276366
+HiddenOutput [11] = 0.417874
+
+---------- output layer ----------
+
+Output Input Sum [0] = 3.91151
+===================
+Output Input [0 0] = 0.752967
+Output Input [0 1] = 0.253025
+Output Input [0 2] = 0.792966
+Output Input [0 3] = 0.394838
+Output Input [0 4] = 1
+Output Input [0 5] = 0.228592
+Output Input [0 6] = 0.851576
+Output Input [0 7] = 0.330484
+Output Input [0 8] = 0.955007
+Output Input [0 9] = 0.881993
+Output Input [0 10] = 0.276366
+Output Input [0 11] = 0.417874
+
+
+Expected = 1 |  Output [0] = 0.992692
+
