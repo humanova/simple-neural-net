@@ -49,7 +49,7 @@ def refresh(i):
         ax1.clear()
         ax1.set_title('Neural-Net Error Graph')
         ax1.set_xlabel('Epoch' + '(' + str(xs[-1])[:-2] + ')             last error: ' + str(ys[-1])  )
-        ax1.set_ylabel('Root Square Mean Error')
+        ax1.set_ylabel('Root Mean Square Error')
 
         ax1.plot(xs, ys)
 
