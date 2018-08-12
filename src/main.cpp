@@ -10,19 +10,6 @@
 
 using namespace std;
 
-
-bool done = false;
-//console control handler for catching close event
-BOOL ctrl_handler(DWORD event)
-{
-    if (event == CTRL_CLOSE_EVENT) {
-        done = true;
-        closePlotter();  //close python plotter
-        return 0;
-    }
-    return FALSE;
-}
-
 int main(){
 	//Setting up console handler to close both plotter and this application
 	SetConsoleCtrlHandler((PHANDLER_ROUTINE)(ctrl_handler), TRUE);

@@ -168,6 +168,16 @@ void closePlotter(){
     system("taskkill /F /T /IM pythonw.exe");
 }
 
+//console control handler for catching close event
+BOOL ctrl_handler(DWORD event)
+{
+    if (event == CTRL_CLOSE_EVENT) {
+        closePlotter();  //close python plotter
+        return 0;
+    }
+    return FALSE;
+}
+
 //=====================================
 //------Math and other functions-------
 //=====================================
