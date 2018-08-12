@@ -109,9 +109,10 @@ int main(){
 	//clearArray(prevBiasYUpdate,Y);
 	//clearArray(prevBiasHUpdate,H);
 
-
+	bool complete_announced = false;
 	printCurrentSettings(X,H,Y,learningRate,momentum,loop);
 	cout<< "== Training Started ==" <<endl;
+
 	while(epoch < loop){
 		for(trainLoop = 0; trainLoop < 4; trainLoop++ ){	//load training data
 			input[0] = trainingData[trainLoop][0];
@@ -120,6 +121,10 @@ int main(){
 
 			if(epoch == loop-1){
 				if(!settings.takeInput == 0){
+					
+					if(!complete_announced)
+						cout<< "== Training Complete ==\n"<<endl;
+						complete_announced = true;
 
 					cout<<"\n\n Input 1 : "; cin>>input[0];
 					cout<<"\n Input 2 : "; cin>>input[1];
@@ -131,11 +136,11 @@ int main(){
 			clearArray(hiddenInputSum,H);
 			clearArray(outputInputSum,Y);
 
-		// =============== FORWARD PROPAGATION ===============//
-		//sum hidden layer inputs  [ XW1 ]
-		//activate hidden layer sums with sigmoid function [ f(XW1 + bias) ]
-		//sum output layer inputs [ HW2 ]
-		//activate output layer sums with sigmoid function [ f(HW2 + bias) ]
+			// =============== FORWARD PROPAGATION ===============//
+			//sum hidden layer inputs  [ XW1 ]
+			//activate hidden layer sums with sigmoid function [ f(XW1 + bias) ]
+			//sum output layer inputs [ HW2 ]
+			//activate output layer sums with sigmoid function [ f(HW2 + bias) ]
 
 			for(int a = 0; a < H; a++){								   	//sum hiddenInput * weight1
 				for(int i = 0; i < X ; i++){
@@ -159,7 +164,7 @@ int main(){
 				output[a] = calcOutput(outputInputSum[a], biasY);
 			}
 
-		// ================= END OF FORWARD PROP ==================//
+			// ================= END OF FORWARD PROP ==================//
 			
 			
 			//Print current status
@@ -178,13 +183,11 @@ int main(){
 				}
 			}
 			
-
-
-		// ================ BACK PROPAGATION ================== //
-		//calculate derivatives
-		//calculate gradients
-		//calculate new weights
-		//update weights
+			// ================ BACK PROPAGATION ================== //
+			//calculate derivatives
+			//calculate gradients
+			//calculate new weights
+			//update weights
 
 			// ======== DERIVATIVES  ======== //
 			//note about sigmoidTurev() : Turev means Derivative in Turkish, I am very lazy to fix it
@@ -201,7 +204,7 @@ int main(){
 					}
 				}
 
-			// ======== GRADIENTS ======== //
+				// ======== GRADIENTS ======== //
 
 				//calculate gradients
 				for(int a = 0; a < H; a++){		//hidden neuron gradients
@@ -225,7 +228,7 @@ int main(){
 					gradientBiasYWeight[a] = sigmoid(biasY) * outputDerivative[a];
 				}*/
 
-			// ========= UPDATE WEIGHTS ========= //
+				// ========= UPDATE WEIGHTS ========= //
 
 				for(int i = 0; i < W1; i++){	//update weight1 (input - hidden W)
 					Weight1[i] += (learningRate * gradientWeight1[i]) + (momentum * prevWeight1Update[i]);
@@ -251,7 +254,7 @@ int main(){
 		// =============== END OF BACK PROP ===============//
   		}
 
-	//========== SAVE ERROR DATA =========//
+		//========== SAVE ERROR DATA =========//
 		
 		if(denemeModu != 1){
 			errorRMSE = calcRMSE(error[0],error[1],error[2],error[3]);
@@ -275,12 +278,14 @@ int main(){
 		}
 
 		else{
-			cout<<"\nLast RMSE Error = "<<errorRMSE<<endl;
+			cout<<"\nLast RMSE = "<<errorRMSE<<endl;
 		}
 
   		epoch++;
 	}
-	cout<< "== Training Complete ==\n"<<endl;
+	if (!complete_announced)
+		cout<< "== Training Complete ==\n"<<endl;
+		complete_announced = true;
 
 	//========== SAVE WEIGHTS AND OTHER DATA ===========//
 
