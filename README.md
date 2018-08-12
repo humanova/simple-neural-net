@@ -26,8 +26,8 @@
  * 4 - .vscode : I use Visual Studio Code as my code editor for this project. In this folder my VSCode Project settings are stored.
  
  * 5 - media : A few gifs that I recorded while testing neural-net and plotter.
+
  
- t
  ## The graph isn't showing up ?
  
  To use realtime plotter you need to have :
