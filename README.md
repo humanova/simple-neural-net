@@ -1,6 +1,6 @@
 # simple-neural-net
 
-![Alt Text](http://puu.sh/Bd45Z/6fedc35467.gif)
+![Alt Text](https://raw.githubusercontent.com/humanova/simple-neural-net/master/media/neural-net-editing.gif)
 
 
  ## Youtube Video About Benchmarking :
