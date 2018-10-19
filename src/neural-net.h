@@ -105,7 +105,7 @@ Settings getSettingsFromFile(){
             else if(a == 3) 
             { 
                 float check = strtof((line).c_str(), 0);
-                if(check <= 0.01 && check >= 0.0)
+                if(check <= 0.01 && check >= 0.9)
                 {
                     cout<<"Momentum cannot be lower than 0.01 and higher than 0.9... (Default value set)\n";
                     file_settings.momentum = getDefaultSettings().momentum;
